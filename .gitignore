@@ -1,0 +1,60 @@
+# Build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Package files
+*.nupkg
+
+# Node modules (if React/Angular frontend)
+node_modules/
+
+# Environment files
+.env
+
+# Secrets
+appsettings.Development.json
+secrets.json
+
+# Publish output
+publish/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+
+# Coverage reports
+coverage/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Azure
+.publishsettings
+
+# Docker
+docker-compose.override.yml

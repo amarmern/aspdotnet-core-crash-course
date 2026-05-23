@@ -1,0 +1,32 @@
+GET http://localhost:5232/games
+
+###
+
+GET http://localhost:5232/games/1
+
+###
+POST http://localhost:5232/games
+Content-Type: application/json
+
+{
+    "name": "Street Fieghter 4",
+    "genre": "Fighting 4",
+    "price": 66.9,
+    "releaseDate": "2026-09-23"
+}
+
+###
+PUT http://localhost:5232/games/1
+Content-Type: application/json
+
+{
+    "name": "Street Fieghter IT Turbo",
+    "genre": "Fighting IT",
+    "price": 19.9,
+    "releaseDate": "1992-07-15"
+}
+
+###
+DELETE http://localhost:5232/games/4
+
+
