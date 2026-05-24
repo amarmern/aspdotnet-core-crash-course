@@ -9,8 +9,8 @@ POST http://localhost:5232/games
 Content-Type: application/json
 
 {
-    "name": "Street Fieghter 4",
-    "genre": "Fighting 4",
+    "name": "Street Fieghter 5",
+    "genre": "Fighting 5",
     "price": 66.9,
     "releaseDate": "2026-09-23"
 }
