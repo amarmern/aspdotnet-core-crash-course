@@ -16,7 +16,7 @@ public static class DataExtensions
     public static void AddGameStoreData(this WebApplicationBuilder builder)
     {
         // Data initialization logic can be added here
-        var connectionString = "Data Source=GameStore.db";
+        var connectionString = builder.Configuration.GetConnectionString("GameStore");
         builder.Services.AddSqlite<GameStoreContext>(connectionString,
             optionsAction: options => options.UseSeeding((context, _) =>
             {
