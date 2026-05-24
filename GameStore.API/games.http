@@ -27,6 +27,6 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:5232/games/4
+DELETE http://localhost:5232/games/5
 
 
