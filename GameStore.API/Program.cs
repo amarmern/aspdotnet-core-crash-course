@@ -10,6 +10,8 @@ var app = builder.Build();
 
 app.MapGamesEndPoints();
 
+app.MapGenreEndpoints();
+
 app.MigrateDb();
 
 app.Run();
